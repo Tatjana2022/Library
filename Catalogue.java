@@ -77,7 +77,56 @@ public class Catalogue  {
         }
     }
 }
+//public Book setBookName() throws FileNotFoundException {
+// return (new Book(null));}
+/*
+public class Catalogue  {
+    String catalogBooks;
+    private ArrayList<Book> books = new ArrayList<>();
+    public Catalogue (String catalogBooks) {
+        this.catalogBooks = catalogBooks;
+    }
+    public String getCatalogBooks() {
+        return catalogBooks;
+    }
 
+    public static void main(String args[]) {
+
+ArrayList<Book> books = new ArrayList<>();
+        //ArrayList<Book> catalogBooks = new ArrayList<>();
+        books.add(new Book("Agata Christie","The Secret of Chimneys"," criminal", 1944));
+        books.add(new Book("Luisas-Ferdinandas Selinas","Kelionė į nakties pakraštį"," drama", 1932));
+        books.add(new Book("Andrė Malro","Žmogaus būtis"," criminal", 1933));
+        books.add(new Book("Antuanas de Sent Egziuperi","Mažasis princas"," drama", 1943));
+        books.add(new Book("Margaret Mitčel","Vėjo nublokšti"," drama", 1936));
+        books.add(new Book("Agata Christie","The Secret"," criminal", 1949));
+        books.add(new Book("Agata Christie","The Secret of Chimneys"," criminal", 1909));
+
+        Collections.sort(books, new BookCompareByAuthor());
+        System.out.println(books);
+        }
+    File file = new File("test.txt");
+    Scanner sc = new Scanner("test.txt");
+    ArrayList<Book> bookNew = new ArrayList<>();
+        while (sc.hasNextLine()) {
+                String book = sc.nextLine();
+                System.out.println(book);
+                for (int i = 0; i < file.length(); ++i) {
+        bookNew.add(new Book("",""," ", 0));
+        }
+        System.out.println(bookNew);
+        }
+        sc.close();
+
+
+
+    public ArrayList<String> getBooks(){
+    return books;
+    }
+    public String getBooks(int i){
+        return books.get(i);
+    }
+ */
 
 
 

@@ -52,6 +52,30 @@ public class Book implements Cloneable {
         }
         return null;
     }
+/*
+    public static void main(String args[]) {
+        ArrayList<Book> books = new ArrayList<>();
+        books.add(new Book("Agata Christie","The Secret of Chimneys"," criminal", 1944));
+        books.add(new Book("Luisas-Ferdinandas Selinas","Kelionė į nakties pakraštį"," drama", 1932));
+        books.add(new Book("Andrė Malro","Žmogaus būtis"," criminal", 1933));
+        books.add(new Book("Antuanas de Sent Egziuperi","Mažasis princas"," drama", 1943));
+        books.add(new Book("Margaret Mitčel","Vėjo nublokšti"," drama", 1936));
+        books.add(new Book("Agata Christie","The Secret"," criminal", 1949));
+        books.add(new Book("Agata Christie","The Secret of Chimneys"," criminal", 1909));
+    }
+
+ */
+ }
+/*
+    public Book clone(){
+        try{
+            return (Book) super.clone();
+        } catch ( CloneNotSupportedException cnse) {
+            System.out.println("Cloning not supported");
+        }
+        return null;
+    }
+ */
 
 
 

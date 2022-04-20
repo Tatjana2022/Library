@@ -42,7 +42,16 @@ class Reader extends Person {
         ArrayList<Reader> reader = new ArrayList<>();
         reader.add(new Reader("Petras", "Petraitis"));
         System.out.println(reader);
+/*
+        if ( Reader + Book) {
+            booksCurrently.add(Book.class.getBookName);
+            books.remove(Book.class.getBookName);
+        }if else (Reader + Book - Book) {
+            booksUnRead.add(Book.class.getBookName);
+            books.add(Book.class.getBookName);
+        }
 
+ */
     }
 }
 
