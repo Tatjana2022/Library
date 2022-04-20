@@ -47,7 +47,6 @@ public class Person implements Comparable<Person>, Cloneable {
             throw new IllegalArgumentException("Klaida, amžius negali būti neigiamas");
         }
     }
-
     public String toString() {
         if(age > 0) {
             return this.name + " " + this.lastname + " " + this.age;
@@ -111,18 +110,3 @@ class PersonCompareByLastName implements Comparator<Person> {
         }
     }
 
-
-/*
-class PersonCompareByAge implements Comparator<Person> {
-    public int compareTo(Person age2) {
-        if (this.getAge() < person2.getAge()) {
-            return -1;
-        } else if (this.getAge() > person2.getAge()) {
-            return 1;
-        } else {
-            return 0;
-        }
-    }
-}
-//Collections.sort(person);
- */
